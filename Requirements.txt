@@ -1,0 +1,14 @@
+Use cases:
+1. App design-
+ - Top menu bar
+ - Left bar
+ - Right bar
+ - Main area
+ - Footer
+ should have switch to turn individual side bars on and off
+ 
+ 2. Catalog link in menu
+ 3. Catalog view should load in main area
+ 4. It should get data from server
+ 5. Display all items in a table/grid form (bootstrap)
+ 6. 

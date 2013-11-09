@@ -1,0 +1,59 @@
+    <div class="container-fluid">
+	    <div class="row-fluid">
+			Search:<input type='text' ng-model='query' />
+			<br />
+			My child is:<select ng-model="mageGroup">
+				<option value="1"><1 year old</option>
+				<option value="2">2 years old</option>
+				<option value "3">3years old</option>
+				<option value="4">4 years old</option>
+				<option value="5">5 years old</option>
+				<option value="6">6 years old</option>
+				<option value="7">7 years old</option>
+				<option value="8">>8 years old</option>
+			</select>
+			<br />
+			wants to learn using:<select ng-model="itemType">
+				<option value="toys">Toys</option>
+				<option value="games">Games/Puzzles</option>
+				<option value="books">Books</option>
+				<option value="cds">Multimedia CD/DVD</option>
+			</select>
+			<br />
+			to build intelligence type:<select ng-model="miType">
+				<option value="1">Body Smart</option>
+				<option value="2">Music Smart</option>
+				<option value="3">Nature Smart</option>
+				<option vlaue="4">Number-Logic Smart</option>
+				<option value="5">People Smart</option>
+				<option value="6">Self Smart</option>
+				<option value="7">Spatial-picture Smart</option>
+				<option value="8">Word Smart</option>
+			</select> 
+			
+<!-- 			<input type="radio" value="1" ng-model="mageGroup " >0-1 year old</input>
+			<input type="radio" value="2" ng-model="mageGroup "> 2-4 years old</input> 
+			<input type="radio" value="3" ng-model="mageGroup ">4-7 years old</input>
+			<input type="radio" value="4" ng-model="mageGroup ">7-10 years old</input>
+ -->	
+ 			<br />
+			Order By:<select ng-model="orderProp">
+				<option value="name">Alphabetically</option>
+				<option value="ageGroup">Newest</option>
+			</select>
+		</div>
+			<br /><br /><br />
+			<!--Body content-->
+
+		    <div class="row">
+				<div class="span2 phone-listing" ng-repeat="item in catalog | filter:mageGroup | orderBy:orderProp">
+					<a href="#/catalog/:{{item.id}}" class="thumb"><img ng-src="img/{{item.imageURL}}"></a>
+					<div>
+						<span>{{item.name}}</span>
+<!--  					<p>
+							<span>{{item.description}}</span>
+						</p>
+-->					</div>
+				</div>
+			</div>
+
