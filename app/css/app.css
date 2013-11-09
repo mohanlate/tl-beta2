@@ -10,7 +10,6 @@
 body {
   color: #5a5a5a;
     font-family: helvetica;
-
 }
 
 @font-face{
@@ -83,36 +82,6 @@ background-image:url(../img/bg-header.png);
   padding-left: 15px;
   padding-right: 15px;
 }
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -289,8 +258,9 @@ background-image:url(../img/bg-header.png);
 
 .unstyled li{
     display:block;
-    font-size:18px;
+    font-size:16px;
     margin-bottom:5px;
+    margin-left:-50px;
 }
 
 .footer {
@@ -314,3 +284,76 @@ background-image:url(../img/bg-header.png);
     color:white;
     font-size:12px;
 }
+
+<!-- pricing -->
+.price {
+	border: 1px solid #c4cbcc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	outline: 5px solid #f2f3f3;
+	float:left;
+}
+
+.price ul { 
+	list-style: none; 
+	float: left; 
+	width: 190px; 
+	margin: 0; 
+	border: 1px solid #f2f3f3;
+	padding: 10px;
+	text-align: center;
+	background-color: #FFF;
+
+}
+
+.price ul:hover { 
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,.7);
+  	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,.7);
+  	box-shadow: 0px 0px 6px rgba(0,0,0,.7);
+  	cursor: default;
+}
+
+.price ul li {  
+	border-bottom: 1px dashed #bebebe;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.price ul li:first-child { 
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.price ul li:nth-child(1) {
+	color: #1477a1;
+}
+
+.price ul li:nth-child(3) { 
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.price ul li:last-child {
+	border-bottom: none;
+	height: 40px;
+}
+
+.buy_now { 
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 10px;
+	margin: 5px 0;
+	background: #1477a1;
+	color: #FFF;
+	display: block;
+}
+<!-- end pricing -->
+
+
+
+
