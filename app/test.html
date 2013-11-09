@@ -26,7 +26,7 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -44,12 +44,12 @@
               
             <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav  navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">How it works?</a></li>
-                        <li><a href="#">Play n Learn</a></li>
-                        <li><a href="#">Discuss</a></li>
-                        <li><a href="#">What others say</a></li>
-                        <li><a href="#">Signup</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#howitoworks">How it works?</a></li>
+                        <li><a href="#playnlearn">Play n Learn</a></li>
+                        <li><a href="#discuss">Discuss</a></li>
+                        <li><a href="#testimonials">What others say</a></li>
+                        <li><a href="#contactus">Sign Up</a></li>
                     </ul>
             </div>
               <div class="tagline">India's first e-Library of guided learning resources</div>
@@ -153,18 +153,20 @@
 
     <!-- start How it works -->
 
-    <div class="container howitworks">
+    <div class="container howitworks" id="howitoworks">
         <h2 class="text-center">How does all this work?</h2>
         <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-5 step-panel">
                 <div class="step-text">
                     <h2>Step 1</h2>
-                    Register from your desktop, mobile or iPad</div>
+                    Register from your desktop, mobile or iPad. Existing members can use the e-library system to browse and define their learning resources preferences.</div>
                 <div class="step-img"><img class="img-square" src="img/step1.png" alt="Generic placeholder image"></div>
             </div><!-- end step1 -->
 
-            <div class="col-lg-2"> </div>
+            <div class="col-lg-2"> 
+                <img class="corner-arrows-0" src="img/top-to-bottom.png" />
+            </div>
             
             <div class="col-lg-5 step-panel">
                 <div class="step-text">
@@ -224,7 +226,7 @@
       </div><!-- end howitworks -->
       
       <!-- start playnlearn -->
-      <div class="playnlearn">
+      <div class="playnlearn" id="playnlearn">
         <h2 class="text-center">Secret behind Play n learn method</h2>
         <ul class="nav nav-tabs" id="myTab">
             <li class="active"><a href="#myTab1" data-toggle="tab">It's importance</a></li>
@@ -252,7 +254,7 @@
         </div>
       </div><!-- end playnlearn -->
       
-      <div class="container discuss">
+      <div class="container discuss" id="discuss">
           <h2 class="text-center">A Question and Answer Discussion Platform</h2>
           <div class="col-lg-4">
               <h4>Forum</h4>
@@ -294,28 +296,29 @@
 
       </div><!-- end discuss -->
             
-    <div class="container testimonials">
+    <div class="container testimonials" id="testimonials">
         <h2 class="text-center">What are they saying?</h2>
         <div class="row">
             <h4>Educators</h4>
-            <div class="col-lg-4">
-                <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
-                <div>
-                    This is good a thing. I would recommend this service to every parent.
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
+                        This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
-                <div>
-                    This is good a thing. I would recommend this service to every parent.
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
+                        This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
-                <div>
-                    This is good a thing. I would recommend this service to every parent.
+                <div class="col-lg-4">
+                    <div>
+                        <img class="img-circle" src="img/img-testimonial.png" alt="Generic placeholder image">
+                        This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.This is good a thing. I would recommend this service to every parent.
+                    </div>
                 </div>
-            </div>
+
         </div>
         <div class="row">
             <h4>Parent</h4>
@@ -361,17 +364,17 @@
         </div>
     </div><!-- end testimonials -->
       
-      <div class="container contactus">
+      <div class="container contactus" id="contactus">
           <h2 class="text-center">Contact us</h2>
           <div class="row">
               <div class="col-lg-6">
                   <div id="find-us" class="col-lg-4" style="top: 0px;">
                       <h3>Find Us</h3>
                       <ul class="unstyled">
-                          <li><span class="icon-map-marker contact-icon"></span> <span class="color">via Post:</span> 64/15, I.T Lane, Pune-4, INDIA</li>
+                          <li><span class="glyphicon glyphicon-map-marker"></span> <span class="color">via Post:</span> 73/3/2, Bhakti Marg, Law College Road, Pune-4, INDIA</li>
                           <li><span class="icon-signal contact-icon"></span> <span class="color">via Phone:</span> 091 966 501 2897</li>
-                          <li><span class="icon-print contact-icon"></span> <span class="color">via Fax:</span> 091 020 2543 2872</li>
-                          <li><span class="icon-envelope contact-icon"></span> <span class="color">via Email:</span> <a href="mailto:mohan@valuefacture.in" class="email-link">mohan@valuefacture.in</a></li>  
+                          <li><span class="glyphicon glyphicon-print"></span> <span class="color">via Fax:</span> 091 020 2543 2872</li>
+                          <li><span class="glyphicon glyphicon-envelope"></span> <span class="color">via Email:</span> <a href="mailto:mohan@valuefacture.in" class="email-link">mohan@valuefacture.in</a></li>  
                       </ul>
                       <ul class="unstyled social">
                           <li>
@@ -408,6 +411,7 @@
                   </div>              
               </div>
               <div class="col-lg-6">
+                  <h3>Sign up now!</h3>
                   <form class="form-horizontal" role="form">
                       <div class="form-group">
                           <label for="inputName" class="col-sm-2 control-label">Name</label>
@@ -454,9 +458,16 @@
       </div>
       
     <!-- FOOTER -->
-    <div class="container footer">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 ToyLuv.com <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <div class="footer">
+        <div class="pull-right">
+            <a href="#">Back to top</a>
+        </div>
+        <div>
+            <a href="#">Privacy</a> | <a href="#">Terms</a>
+        </div>
+        <div class="div-copyright">
+            &copy; 2013 ToyLuv.com      
+        </div>
     </div>
 
 
