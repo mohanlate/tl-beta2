@@ -173,7 +173,7 @@ background-image:url(../img/bg-header.png);
     margin-left:100px;
 }
 
-#myTab1 {
+#myTab1, #myTab2, #myTab3, #myTab4 {
     padding-top:20px;
     padding-bottom:20px;
     padding-left:20px;
@@ -357,3 +357,10 @@ background-image:url(../img/bg-header.png);
 
 
 
+
+#myTab li .active {
+    border-color: #428bca;
+    background:red;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
