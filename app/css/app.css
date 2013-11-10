@@ -159,7 +159,8 @@ background-image:url(../img/bg-header.png);
 }
 
 .playnlearn {
-    background:#E5ECF3;
+    background:url(../img/pnl-bg.png) no-repeat;
+    background-size:100%;
     margin-top:20px;
     padding-top:20px;
     padding-bottom:20px;
@@ -354,13 +355,19 @@ background-image:url(../img/bg-header.png);
 }
 <!-- end pricing -->
 
-
-
-
-
-#myTab li .active {
-    border-color: #428bca;
-    background:red;
+.nav-tabs {
+    border-color:#428bca;
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color:#428bca;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    color:white;
+}
+
+.quote {
+    font-family:cursive;
+    font-size:24px;
+    font-style:italic;
+}
