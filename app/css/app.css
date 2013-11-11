@@ -371,3 +371,27 @@ background-image:url(../img/bg-header.png);
     font-size:24px;
     font-style:italic;
 }
+
+
+
+.findus, .control-label {
+    color:#99cc66;
+    text-emphasis-style:circle;
+    font-size:16px;
+    padding-left:5px; 
+}
+
+.form-control {
+    border-top-color:transparent;
+    border-right-color:transparent;
+    border-left-color:transparent;
+    box-shadow:none;
+}
+
+.well {
+    height:300px;
+    width:30%;
+    margin-left:20px;
+    margin-right:5px;
+    text-align:justify
+}
