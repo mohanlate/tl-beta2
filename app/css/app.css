@@ -240,6 +240,7 @@ background-image:url(../img/bg-header.png);
 }
 
 .testimonials {
+display:none;
     background:#A67EF5;
     color:white;
     margin-top:20px;
@@ -394,4 +395,8 @@ background-image:url(../img/bg-header.png);
     margin-left:20px;
     margin-right:5px;
     text-align:justify
+}
+
+.pricing {
+    align-self:center
 }
