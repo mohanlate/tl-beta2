@@ -398,5 +398,16 @@ display:none;
 }
 
 .pricing {
-    align-self:center
+    align-self:left;
+}
+
+.price-sidebar {
+	border: 1px solid #c4cbcc;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	outline: 5px solid #f2f3f3;
+    margin-left:600px;
+    padding-left:10px;
+    padding-right:10px;
 }
